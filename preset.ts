@@ -18,6 +18,7 @@ Preset.execute('composer')
 		'pestphp/pest-plugin-laravel',
 		'pestphp/pest-plugin-expectations',
 		'--dev',
+		'--with-all-dependencies',
 		'--no-interaction',
 	])
 	.withTitle(`Installing ${color.magenta('composer')} dependencies...`);
