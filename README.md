@@ -1,14 +1,8 @@
 <p align="center">
   <br />
-  <a href="https://usepreset.dev">
-    <img width="100" src="https://raw.githubusercontent.com/preset/cli/main/.github/assets/logo.svg" alt="Logo of the Preset tool">
+  <a href="https://preset.dev">
+    <img src="https://raw.githubusercontent.com/pestphp/art/master/readme.png" alt="Logo of the Preset tool">
   </a>
-  <br />
-</p>
-
-<h2 align="center">Pest for Laravel</h2>
-
-<p align="center">
   <br />
   <a href="https://www.npmjs.com/package/apply">
     <img alt="npm" src="https://img.shields.io/npm/v/apply?label=preset">
@@ -19,7 +13,7 @@
   </a>
   <br />
   <br />
-  <pre align="center">npx apply laravel:pest</pre>
+  <pre><div align="center">npx apply laravel:pest</div></pre>
 </p>
 <br />
 
