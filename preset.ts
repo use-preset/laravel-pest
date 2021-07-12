@@ -2,21 +2,12 @@ import { color, Preset } from 'apply';
 
 Preset.setName('Pest for Laravel');
 
-// Makes sure composer settings are right.
-Preset.editJson('composer.json')
-	.merge({
-		'minimum-stability': 'dev',
-		'prefer-stable': true,
-	})
-	.withoutTitle();
-
 // Installs the dependencies.
 Preset.execute('composer')
 	.withArguments([
 		'require',
 		'pestphp/pest',
 		'pestphp/pest-plugin-laravel',
-		'pestphp/pest-plugin-expectations',
 		'--dev',
 		'--with-all-dependencies',
 		'--no-interaction',
